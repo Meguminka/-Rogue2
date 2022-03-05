@@ -1,0 +1,79 @@
+:root { 
+  --bermuda-gray: #668cad;
+  --black: #000000;
+  --blue-jeans: #69b9ff;
+  --granite-gray: #676770;
+  --hoki: #6a859c;
+  --link-water: #dcebf7;
+  --mischka: #d5d5e0;
+  --white: #ffffff;
+ 
+  --font-size-l: 15px;
+  --font-size-m: 14px;
+  --font-size-s: 13px;
+  --font-size-xl: 16px;
+  --font-size-xxl: 17px;
+  --font-size-xxxl: 20px;
+  --font-size-xxxxl: 30px;
+ 
+  --font-family-open_sans: "Open Sans", Helvetica;
+}
+.opensans-normal-bermuda-gray-13px {
+  color: var(--bermuda-gray);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-normal-hoki-14px {
+  color: var(--hoki);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-normal-granite-gray-20px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-normal-hoki-13px {
+  color: var(--hoki);
+  font-family: var(--font-family-open_sans);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.opensans-normal-granite-gray-18px {
+  color: var(--granite-gray);
+  font-family: var(--font-family-open_sans);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.border-1px-white {
+  border: 1px solid var(--white);
+}
+
+.border-1px-link-water {
+  border: 1px solid var(--link-water);
+}
+
+.border-10px-white {
+  border: 10px solid var(--white);
+}
